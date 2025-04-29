@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: qian-xun-pro-wechat-http-demo
+
+server:
+  # 本服务的监听端口
+  port: 989
+  servlet:
+    context-path: /wechat
+
+# 日志
+logging:
+  level:
+    cn.daenx.myadmin: info
+    org.springframework: warn
+  config: classpath:logback.xml
+
+# 千寻微信框架Pro
+qian-xun-pro:
+  # 请求地址
+  url: "http://127.0.0.1:7777/qianxun/httpapi"
