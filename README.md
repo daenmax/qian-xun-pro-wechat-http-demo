@@ -2,7 +2,7 @@
 官网：https://qxpro.apifox.cn/
 ### 介绍
 
-千寻微信框架Pro的HTTP Java开发demo
+千寻微信框架Pro的HTTP Java开发demo，基于`java21`
 
 各个事件的处理类在下`cn.daenx.myadmin.modules.service.impl`
 
