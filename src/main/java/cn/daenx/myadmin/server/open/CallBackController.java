@@ -29,6 +29,7 @@ public class CallBackController {
 
     @PostMapping("/callback")
     public Result page(@RequestBody String jsonStr) {
+        log.info("接收到回调事件：{}", jsonStr);
         JSONObject req = JSONObject.parseObject(jsonStr);
         BaseEventVo data = req.getObject("data", BaseEventVo.class);
         JSONObject jsonObject = req.getJSONObject("data").getJSONObject("data");
