@@ -1,5 +1,5 @@
 ## 千寻微信框架Pro HTTP Java开发demo
-官网：https://qxpro.apifox.cn/
+官网：https://www.cnblogs.com/daen/p/-/qxpro
 ### 介绍
 
 千寻微信框架Pro的HTTP Java开发demo，基于`java21`
