@@ -10,7 +10,7 @@
 
 里面包含了发送群消息 带艾特群成员，emoji表情、换行 等
 
-`cn.daenx.myadmin.modules.utils.QianXunApi`是封装的框架API接口，我只写了`发送文本消息（sendText）`、`退还收款（returnTrans）`，其他的自己写！
+`cn.daenx.myadmin.modules.utils.QianXunApi`是封装的框架API接口，我只写了`发送文本消息（sendText）`、`发送文件（sendFile）`、`退还收款（returnTrans）`，其他的自己写！
 
 `cn.daenx.myadmin.modules.utils.QianXunText`是封装的文本代码
 
