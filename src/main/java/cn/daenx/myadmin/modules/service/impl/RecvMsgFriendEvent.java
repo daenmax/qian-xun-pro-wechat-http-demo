@@ -34,5 +34,9 @@ public class RecvMsgFriendEvent implements EventHandleService {
             msg2 = EmojiEncoder.encodeEmojisOnly(msg2);
             QianXunApi.sendText(baseEventVo.getWxid(), data.getFromWxid(), msg2);
         }
+        if ("发送文件".equals(data.getMsg())) {
+            String path = "C:\\Users\\Microsoft\\Desktop\\测试文件.txt";
+            QianXunApi.sendFile(baseEventVo.getWxid(), data.getFromWxid(), path, null);
+        }
     }
 }
